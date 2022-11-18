@@ -20,9 +20,10 @@ public class Ejercicio07 {
 
 	public static int funcion1(int num) {
 		int cont = 0;
-		for (int i = 1; i <= num; i++) {
+		for (int i = 2; i <= num; i++) {
 			if (num % i == 0) {
 				if (esPrimo(i)) {
+					Util.escribir(i);
 					cont += 1;
 				}
 			}
